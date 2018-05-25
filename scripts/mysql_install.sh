@@ -5,7 +5,7 @@ export DEBIAN_FRONTEND=noninteractive
 sudo -E apt-get -q -y install mysql-server
 
 # Not required in actual script
-MYSQL_ROOT_PASSWORD=root
+#MYSQL_ROOT_PASSWORD=root
 
 SECURE_MYSQL=$(expect -c "
 set timeout 10
